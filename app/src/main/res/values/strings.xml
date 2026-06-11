@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Qwizzo</string>
+    <string name="profile">Profile</string>
+    <string name="setting">Setting</string>
+    <string name="score_history">Score History</string>
+    <string name="about_us">About Us</string>
+    <string name="log_out">Log Out</string>
+    <string name="qwizzo">Qwizzo</string>
+    <string name="test_your_knowledge">Test Your Knowledge</string>
+    <string name="start_quiz">Start Quiz</string>
+    <string name="central_image_of_app">Central Image of app</string>
+    <string name="restart_quiz">Restart Quiz</string>
+    <string name="quit_quiz">Quit Quiz</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="prev">Prev</string>
+</resources>
