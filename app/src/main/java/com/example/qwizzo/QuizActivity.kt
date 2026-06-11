@@ -183,7 +183,7 @@ val toolbar = findViewById<Toolbar>(R.id.quizToolBar)
 
 nextQuestion.setOnClickListener {
 
-    saveAns()
+//    saveAns()
 
     val selected = getSelected()
 
@@ -202,7 +202,7 @@ nextQuestion.setOnClickListener {
 }
 
     prev.setOnClickListener {
-        saveAns()
+//        saveAns()
 
         if (currentQuestionIndex > 0){
             currentQuestionIndex--
@@ -277,14 +277,14 @@ nextQuestion.setOnClickListener {
         }
     }
 
-    private fun saveAns(){
-        val currentQuestion = questionList[currentQuestionIndex]
-        currentQuestion.selectedAnswer=when (radioGroup.checkedRadioButtonId) {
-            R.id.rbOption1 -> 0
-            R.id.rbOption2 -> 1
-            R.id.rbOption3 -> 2
-            R.id.rbOption4 -> 3
-            else -> -1
-        }
-    }
+//    private fun saveAns(){
+//        val currentQuestion = questionList[currentQuestionIndex]
+//        currentQuestion.selectedAnswer=when (radioGroup.checkedRadioButtonId) {
+//            R.id.rbOption1 -> 0
+//            R.id.rbOption2 -> 1
+//            R.id.rbOption3 -> 2
+//            R.id.rbOption4 -> 3
+//            else -> -1
+//        }
+//    }
 }
